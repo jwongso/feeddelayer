@@ -5,6 +5,8 @@ Using the websockets API - available at https://api.deriv.com, build a small app
 which calls https://api.deriv.com/api-explorer/#ticks to obtain a real-time tick stream of a 
 given instrument, and then delays that tick stream by x minute.
 
+Implemented based on Boost Websocket asnyc client example.
+
 Consider design choices that might help with efficient behaviour.
 
 Pre-requirements: CMake, Boost and OpenSSL dev libraries
