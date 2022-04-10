@@ -10,12 +10,17 @@ Consider design choices that might help with efficient behaviour.
 Pre-requirements: CMake, Boost and OpenSSL dev libraries
 
 Usage:
+
 ``` feeddelayer --timeout <delay in secs> --collect_stream true```
 
 feeddelayer Options:
-```   -h [ --help ]                    This help screen``` 
+
+```   -h [ --help ]                    This help screen```
+
 ```   -t [ --timeout ] arg (=60)       Timeout/Delay in secs (default = 60, 0 = no delay)``` 
+
 ```   -c [ --collect_stream ] arg (=1) Collect stream within delay (true = yes/default, false = no)```
+
 
 Q&A:
 - Why boost? Why not? It provides cool features such as asio, beast-websocket and any other stuff that might fit the trading or no-latency technology requirements
